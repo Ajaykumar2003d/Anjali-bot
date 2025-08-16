@@ -34,7 +34,7 @@ app.get("/", (req, res) => res.send("✅ Facebook Bot is online and ready!"));
 app.listen(PORT, () => log(`Server started on port ${PORT}`));
 
 // Config (overrides via .env)
-const BOSS_UID = process.env.BOSS_UID || "61578631626802";
+const BOSS_UID = process.env.BOSS_UID || "61570909979895";
 const DATA_DIR = process.env.DATA_DIR || __dirname;
 const appStatePath = path.join(DATA_DIR, "appstate.json");
 const dataFile = path.join(DATA_DIR, "groupData.json");
